@@ -1,10 +1,7 @@
-Group Members:
-
-    Olema Swaib
-    Kiiza Gertrude
-    Atukunda Shanitah
-    
-     PROJECT OVERVIEW
+GROUP MEMBERS
+OLEMA SWAIB : 2300900899 B/23/U/D0899/PS
+KIIZA GERTRUDE : 2300900602
+ATUKUNDA SHANITAH : 2300900119
 
 The DC Sports Clothing Store project was developed as an online platform for selling a variety of sportswear items,
 providing customers with an easy-to-navigate site for browsing and purchasing sports clothing.
