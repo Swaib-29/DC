@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dc-css/index.css">
+    <link rel="stylesheet" href="dc-css/login.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+<body> 
+     <!----------------------header section----------------------->
+     <header>
+        <!----------------------logo and the nav links----------------------->
+       <div class="logo">
+           <img src="./images/logo.png" alt="">
+       </div>
+       <nav>
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="product.html">Products</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul>
+       </nav>
+        <!----------------------search container ----------------------->
+       <div class="search-container">
+          
+            <!----------------------login icon and the cart ----------------------->
+           <div class="search-cols">
+               <div class="search-icon"><a href="login.html"><img src="./images/account.1.png" alt="" class="cart-icon" ></a></div>
+               <div class="search-icon"><a href="cart.html"><img src="./images/cart.png" alt="" class="cart-icon" ></a></div>
+              
+           </div>
+            <!----------------------search button and the input ----------------------->
+           <div class="search-cols">
+               <input type="text" placeholder="Search...">
+               <button type="submit">Search</button>
+           </div>
+          
+       </div>
+       
+   </header>
+    <section>
+        <article>
+            <img src="./images/hero.png" alt="">
+        </article>
+        <article>
+            <div class="form-container-1">
+                
+                <div class="form-container"> 
+                    <div class="form-btn">
+                    <span onclick="login()">Login</span>
+                    <span onclick="register()">Register</span>
+                    </div>
+                    <form id="loginForm" action="">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forgot password</a>
+                    </form>
+                    <br>
+                    <form id="RegistrationForm">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder=" Confirm Password">
+                        <button type="submit" class="btn">Register</button>
+                        
+                    </form>
+                </div>
+               
+               
+            </div>
+        </article>
+    </section>
+
+
+
+ <!----------------------Footer----------------------->
+    <footer>
+        <div class="footer-row">
+            <div class="footer-col">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS mobile phones</p>
+                <div class="app-logo">
+                    <img src="./images/G-A.png" alt="">
+
+                </div>
+            </div>
+            <div class="footer-col">
+                <img src="./images/logo.1.png" alt="">
+                <p>Our Purpose Is to Sustainably Make the Pleasure and Benefits of Sports Accessories to the Many.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Usefull Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Polocy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+
+            </div>
+
+          
+        </div>
+        <hr>
+        <p class="Copyright">&copy Copyright 2024 - Olema Swaib Layouts</p>
+
+
+    </footer>
+    <script>
+        var loginForm = document.getElementById("loginForm");
+        var registrationForm = document.getElementById("RegistrationForm");
+    
+        function register() {
+            loginForm.style.display = "none";
+            registrationForm.style.display = "block";
+        }
+    
+        function login() {
+            registrationForm.style.display = "none";
+            loginForm.style.display = "block";
+        }
+    </script>
+</body>
+</html>

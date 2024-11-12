@@ -1,0 +1,80 @@
+ /* Main container for the cart page; displays items in a flexible layout,
+ centered with padding, shadow, and a white background */
+.cart-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    padding: 30px;
+    margin: 60px auto;
+    min-height: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    background-color: white;
+
+}
+/* Table for cart items, ensuring full width and collapsed borders for a clean layout */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+/* Container for cart item details, organized flexibly with spacing between elements */
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* Table header styling for columns, providing background color, padding, and text color */
+th{
+    text-align: left;
+    background: #ff523b;
+    padding: 5px;
+    color: whitesmoke;
+    font-weight: normal;
+}
+/* Table data cells for cart item details */
+td{
+
+    padding: 10p 5px;
+
+}
+/* Input field for quantity adjustment within each table cell */
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+} 
+/* Product image styling within table cells */
+td img{
+    width: 90px;
+    height: 90px;
+    margin-left: 10px;
+}
+/* Container for the total price section, aligned to the right at the bottom of the cart */
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 30px;
+    margin: 60px auto;
+
+}
+/* Table for displaying total price calculations, separated by a top border */
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    min-width: 400px;
+    padding: 0px;
+
+
+}
+ /* Aligns content of the last table cell in each row to the right */
+td:last-child{
+    text-align: right;
+
+}
+/* Aligns content of the last header cell to the right */
+th:last-child{
+    text-align: right;
+    padding: auto 70px;
+
+}

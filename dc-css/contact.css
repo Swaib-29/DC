@@ -1,0 +1,114 @@
+
+/* Container styling */
+.container {
+  padding: 50px; 
+}
+/* Main content styling */
+.content {
+  display: flex;
+  justify-content: space-evenly; 
+  flex-wrap: wrap; 
+  max-height: 930px;
+  padding: 20px 10px; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+  border-radius: 20px; 
+}
+/* Left side section styling */
+.left-side {
+  margin: 0px 10px auto; 
+  padding: 10px; 
+  width: 350px; 
+  justify-content: center; 
+  align-items: center; 
+}
+/* Details section styling */
+.details {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  padding: 10px; 
+  color: #8a8a8a; 
+  cursor: pointer; 
+}
+/* Icon styling */
+.fas {
+  text-align: center; 
+  font-size: 25px; 
+  color: #ff523b; 
+  cursor: pointer; 
+}
+
+/* General text styling */
+.topic, .text-one, .text-two {
+  text-align: center; 
+  font-size: 15px; 
+  cursor: pointer; 
+  margin-top: 10px; 
+}
+
+/* Right side section styling */
+.right-side {
+  display: flex;
+  flex-direction: column; 
+  color: #8a8a8a;
+  padding: 10px; 
+  width: 50%; 
+}
+
+/* Title styling in the right side */
+.title-right {
+  font-size: 25px; 
+  font-weight: bold; 
+}
+
+/* Input box styling */
+.input-box {
+  padding: 5px; 
+}
+
+/* Input field styling */
+.right-side input {
+  width: 95%; 
+  height: 25px;   padding: 4px; 
+  border: 2px solid #ff523b; 
+  border-radius: 5px; 
+}
+
+/* Text styling for topic text and paragraphs */
+.topic-text, p {
+  font-size: 15px; 
+  text-align: justify; 
+}
+
+/* Message box styling */
+.message-box textarea {
+  width: 90%; 
+  height: 150px; 
+  padding: 10px; 
+  margin: 7px; 
+}
+
+/* Removes outline on focus for textareas and inputs */
+.message-box textarea, input:focus {
+  outline: none; 
+}
+
+/* Button styling */
+.button {
+  padding: 5px; 
+}
+/* Button input styling */
+.button input {
+  height: 35px; 
+  width: 100%; 
+  border-radius: 50px; 
+  color: whitesmoke; 
+  background: #ff523b; 
+  font-weight: bold; 
+}
+
+/* Button hover effect */
+.button input:hover {
+  background-color: #fc3e25; 
+  cursor: pointer;
+}

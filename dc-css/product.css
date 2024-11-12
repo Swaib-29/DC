@@ -1,0 +1,47 @@
+/* Main container for each product entry; lays out product details horizontally, centers them,
+ and adds margins for spacing */
+.product{
+    display: flex;
+    justify-content: space-between;
+   margin: 70px auto 35px;
+   width: 80%;
+}
+/* Styling for product titles to make them prominent with color and bold font */
+.title-product{
+    color: #8a8a8a;
+    font-weight: bold;
+}
+/* Styling for dropdown selection boxes, used for options like product sizes */
+select{
+    border: 2px solid #ff523b;
+    border-radius: 5px;
+    padding: 5px;
+    height: 40px;
+}
+/* Container for pagination buttons, centers the buttons and adds margins for spacing */
+
+.page-btn{
+    margin: 30px auto 70px;
+}
+/* Individual pagination button style, includes hover effect to highlight the current page */
+.page-btn span{
+    display: inline-block;
+    border: 2px solid #ff523b;
+    margin-left: 8px;
+    width: 30px;
+    height: 35px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #8a8a8a;
+}
+
+.page-btn span:hover{
+    background: #ff523b;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-weight: bold;
+}
+

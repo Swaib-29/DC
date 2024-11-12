@@ -1,0 +1,84 @@
+ /* Main container for the form section; provides a white background, box shadow, and centers form elements */
+.form-container {
+    background-color: white;
+    width: 350px;
+    min-height: 300px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+/* Additional padding container for specific form sections, creating spacing around content */
+.form-container-1{
+    padding: 70px 0px;
+}
+/* Container for buttons that toggle between login and registration forms, positioned at the bottom */
+    .form-btn span {
+        font-weight: bold;
+        padding: 0 10px;
+        color: #8a8a8a;
+        cursor: pointer;
+        width: 100px;
+        display: inline-block;
+    }
+/* Style for each button label within form-btn, with hover effect for interactivity */
+
+    .form-btn span:hover{
+        padding: 6px;
+        background: #fc3e25;
+        border-radius: 5px;
+        color: white;
+    }
+    
+/* Styling for the form elements within the container, including transition effects for form animations */
+    .form-btn {
+        
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    
+
+    /* Form styling */
+    .form-container form {
+       
+        width: 100%;
+        padding: 0 5px;
+        position: absolute;
+        top: 80px;
+        transition: all 0.5s ease;
+    }
+
+   /* Login form, shown by default */
+    #loginForm {
+        display: block;
+    }
+/* Registration form, initially hidden */
+    #RegistrationForm {
+        display: none;
+    }
+/* Style for input fields in the form, such as username, password, etc. */
+    form input {
+        width: 70%;
+        height: 30px;
+        margin: 10px 0;
+        padding: 0 10px;
+        border: 1px solid #ccc;
+    }
+/* Styling for the submit button, including color, padding, and border-radius */
+    form .btn {
+        width: 80%;
+        border: none;
+        cursor: pointer;
+        margin: 20px auto;
+        background-color: #ff5733;
+        color: white;
+        border-radius: 20px;
+        padding: 10px;
+    }
+/* Styling for links within the form, such as "Forgot Password" */
+    form a {
+        font-size: 12px;
+    }

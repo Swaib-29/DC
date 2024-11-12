@@ -1,0 +1,49 @@
+/* Container for product display section; holds product items in a flexible layout,
+ wraps content, centers products, and adds box shadow for styling */
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px 70px;
+    padding: 30px 0px;
+    gap: 10px;
+    justify-content: center;
+    box-shadow: 0 0 25px rgba(0, 0,0, 0.3);
+    border-radius: 10px;
+    text-align: justify;
+}
+/* Styling for product images within the product container; defines image dimensions */
+.product-container img{
+    width: 300px;
+    height: 400px;
+
+}
+/* Container for quantity controls, aligning quantity input fields horizontally */
+
+.quantity-btn{
+    display: flex;
+    
+}
+/* Input field within quantity-btn for adjusting product quantity */
+.quantity-btn input{
+    height:30px;
+    width: 40px;
+    margin-right: -50px;
+}
+ /* Individual product column within the product-container;
+  sets padding, minimum width, and basic styling for each product card */
+.col-product{
+    padding: 10px;
+    min-width: 300px;
+    flex-basis: 15%;
+    color: #555;
+    align-items: flex-start;
+
+}
+/* Container for selecting product sizes, centered horizontally with slight margin adjustments */
+#sizes{
+    margin: 15px auto;
+    margin-right: -20px;
+}
+
+
+
